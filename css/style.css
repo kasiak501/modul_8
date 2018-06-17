@@ -1,0 +1,32 @@
+body{
+  background:#4b4b4b;
+  height:500px;
+}
+.trg{
+  margin:0 auto;
+  width:0px;
+  height:0px;
+  border-left:300px solid #4b4b4b;
+  border-right:300px solid #4b4b4b;
+  border-bottom:300px solid #4b4b4b;
+  border-top:300px solid #e74c3c;
+}
+h1{
+  position:absolute;
+  left:35%;
+  top:330px;
+  text-transform:uppercase;
+  font-family:arial;
+  color:white;
+  
+}
+span{
+  border:2px solid white;
+  padding:5px;
+}
+span:hover{
+  background:white;
+  cursor:pointer;
+  color:#4b4b4b;
+}
+
