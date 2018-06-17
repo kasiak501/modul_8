@@ -1,0 +1,32 @@
+{
+  "name": "modul_8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.24.4",
+    "globstar": "^1.0.0",
+    "jshint": "^2.9.5",
+    "node-sass": "^4.9.0",
+    "npm-run-all": "^4.1.3",
+    "nu-html-checker": "^0.1.0",
+    "onchange": "^4.0.0"
+  },
+  "scripts": {
+    "test": "npm-run-all test:*",
+    "test:js": "globstar jshint js/*.js && echo siema"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasiak501/learning-git-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kasiak501/learning-git-2/issues"
+  },
+  "homepage": "https://github.com/kasiak501/learning-git-2#readme"
+}
