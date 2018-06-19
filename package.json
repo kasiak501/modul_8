@@ -16,7 +16,7 @@
   },
   "scripts": {
     "test": "npm-run-all test:*",
-    "test:js": "globstar jshint js/*.js && echo siema"
+    "test:js": "globstar jshint js/*.js"
     },
   "repository": {
     "type": "git",
