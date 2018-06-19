@@ -6,7 +6,7 @@ alert('Hello, ' + name);/*
 
 //triangle area
 
-var a= 10,
-    h=60,
-    trianglearea=prompt("Do you agree that triangle area is?:",a*h/2);
+var a = 10,
+    h =60,
+    triangleArea = prompt("Do you agree that triangle area is?:", a * h / 2);
 console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
