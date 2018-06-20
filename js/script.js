@@ -15,11 +15,11 @@ console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is eq
 
 var a = 7,
     b = 0,
-    Value = (a * a) - (2 * a * b) - (b * b);
+    value = (a * a) - (2 * a * b) - (b * b);
 
-if (Value > 0) {
+if (value > 0) {
     console.log('Wynik dodatni');
-} else if (Value < 0) {
+} else if (value < 0) {
     console.log('Wynik ujemny');
 } else {
     console.log('Wynik równy zero');
