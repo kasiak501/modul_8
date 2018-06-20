@@ -13,14 +13,14 @@ alert('Hello, ' + name);/*
 console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);*/
 
 
-var a = 6,
-    b = 10,
+var a = 7,
+    b = 0,
     Value = (a * a) - (2 * a * b) - (b * b);
 
 if (Value > 0) {
-    consol.log('Wynik dodatni');
+    console.log('Wynik dodatni');
 } else if (Value < 0) {
-    consol.log('Wynik ujemny');
+    console.log('Wynik ujemny');
 } else {
-    consol.log('Wynik równy zero');
+    console.log('Wynik równy zero');
 }
